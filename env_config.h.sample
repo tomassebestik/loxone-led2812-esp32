@@ -1,0 +1,9 @@
+// Rename this file to "env_config.h" and fill in the credentials.
+
+#define ENV_WIFI_SSID ""           // name of your WiFi network (SSID)
+#define ENV_WIFI_PASS ""           // your wifi network password
+#define ENV_SIGNAL_PIN 14          // ESP board pin number of the LED strip comm (typically green) wire
+#define ENV_LEDS_NUMBER 144        // Number of LEDs in your strip
+#define ENV_LED_GROUP_SIZE 3       // Number of LEDs in a group (higher number = faster effect)
+#define ENV_DELAY_TIME 0           // Delay between each step of the effect (higher number = slower effect)
+#define ENV_EFFECT_SYMMETRICAL 1   // 0 = effect is not symmetrical, 1 = effect is symmetrical
